@@ -302,8 +302,21 @@ p#data {
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>Century Local</li>
-          <li><a href="mailto:info@centurylocal.com">info@centurylocal.com</a></li>
+          <li>  <span itemprop="name">Century Local</span></li>
+          <li>   <span itemprop="telephone">
+                 <a href="tel:1-702-675-8951">1-702-675-8951</a>
+                 <a href="callto:1-702-675-8951">1-702-675-8951</a>
+                 <a href="sms:1-702-675-8951">1-702-675-8951</a>
+                 </span>
+           </li>
+          <li><span itemprop="email"><a href="mailto:info@centurylocal.com">info@centurylocal.com</a></span></li>
+        
+  <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+    <span itemprop="streetAddress">6155 S Sandhill Rd Ste 300</span>
+    <span itemprop="addressLocality">Las Vegas</span>,
+    <span itemprop="addressRegion">NV</span>
+    <span itemprop="postalCode">89120</span>
+  </div>
         </ul>
       </div>
       <div class="footer-col footer-col-2">
@@ -325,8 +338,11 @@ p#data {
         </ul>
       </div>
       <div class="footer-col footer-col-3">
-        <p>all are welcome online. </p>
-        <p id="data"></p>
+  <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+    <span itemprop="ratingValue">5</span> stars -
+    based on <span itemprop="reviewCount">7</span> reviews
+  </div>
+  <p id="data"></p>
       </div>
     </div>
   </div>
